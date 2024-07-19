@@ -2,15 +2,18 @@ package parser
 
 import (
 	"bufio"
-	"encoding/json"
+	"fmt"
 	"os"
+	"path/filepath"
+	"quake-log-parser/logger"
 	"regexp"
 	"strings"
+	"sync"
 )
 
 // parseLogFile tries to open a file and then parses each line to a predefined regex to match Players, Kills and KillMethods
 // It returns a map of game IDs to Game objects and any error encountered during file parsing.
-func ParseLogFile(filename string) (map[int]*Game, error) {
+func parseLogFile(filename string) (map[int]*Game, error) {
 	file, err := os.Open(filename)
 	if err != nil {
 		return nil, err
@@ -71,29 +74,53 @@ func ParseLogFile(filename string) (map[int]*Game, error) {
 	return games, nil
 }
 
-// writeGameReportJSON writes the games map to a json file, where each line is a Game read from the .log file.
-func WriteGameReportJSON(games map[int]*Game, filename string) error {
-	file, err := os.Create(filename)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
+// ParseLogFiles concurrently parses multiple log files and returns a map of parsed games and any encountered errors.
+func ParseLogFiles(logFilesSlice []string) (map[int]*Game, error) {
+	// Concurrently parse log files
+	var wg sync.WaitGroup
+	gamesChannel := make(chan map[int]*Game, len(logFilesSlice))
+	var errors []error
 
-	encoder := json.NewEncoder(file)
-
-	for _, game := range games {
-		gameData := map[string]interface{}{
-			"total_kills":    game.TotalKills,
-			"players":        game.Players,
-			"kills":          game.Kills,
-			"kills_by_means": game.KillMethods,
-		}
-
-		err := encoder.Encode(gameData)
-		if err != nil {
-			return err
-		}
+	for _, logFile := range logFilesSlice {
+		wg.Add(1)
+		go func(logFile string) {
+			defer wg.Done()
+			games, err := parseLogFile(logFile)
+			if err != nil {
+				logger.ErrorLogger.Println("Error parsing log file:", err)
+				errors = append(errors, err)
+				return
+			}
+			gamesChannel <- games
+		}(logFile)
 	}
 
-	return nil
+	wg.Wait()
+	close(gamesChannel)
+
+	// Aggregate all games from the channel
+	allGames := make(map[int]*Game)
+	counter := 0
+	for games := range gamesChannel {
+		for _, game := range games {
+			allGames[counter] = game
+			counter++
+		}
+	}
+
+	// Check if there were any errors during parsing
+	var err error
+	if len(errors) > 0 {
+		err = fmt.Errorf("encountered %d errors during parsing", len(errors))
+	}
+
+	return allGames, err
+}
+
+// expandLogFiles expands a space-separated list of log files or a directory pattern into a slice of file paths.
+func ExpandLogFiles(input string) ([]string, error) {
+	if strings.Contains(input, "*") {
+		return filepath.Glob(input)
+	}
+	return strings.Fields(input), nil
 }

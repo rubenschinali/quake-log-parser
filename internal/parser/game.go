@@ -16,3 +16,10 @@ func NewGame() *Game {
 		KillMethods: make(map[string]int),
 	}
 }
+
+// GameReport represents the structure of a game report in JSON format.
+type GameReport struct {
+	TotalKills int            `json:"total_kills"`
+	Players    []string       `json:"players"`
+	Kills      map[string]int `json:"kills"`
+}
