@@ -36,7 +36,7 @@ func WriteGameReportJSON(filename string, allGames map[int]*parser.Game) error {
 				TotalKills:  game.TotalKills,
 				Players:     players,
 				Kills:       game.Kills,
-				KillMethods: killMethods, // Replace with actual logic to fill kill methods
+				KillMethods: game.KillMethods,
 			},
 		}
 

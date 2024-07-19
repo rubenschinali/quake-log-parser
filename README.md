@@ -54,13 +54,28 @@ Saves to disk in JSON format the summary of the game Players, Kills, and Kill Me
 
 ```json
 {
-  "output_format": "json",
-  "log_level": "info",
-  "filters": {
-    "player": "player_name",
-    "event_type": "kill"
-  }
-}
+    "GameID": "GAMEID",
+    "GameDetails": {
+      "TotalKills": 10,
+      "Players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4"
+      ],
+      "Kills": {
+        "Player1": 4,
+        "Player2": 2,
+        "Player3": 0,
+        "Player4": 2
+      },
+      "KillMethods": {
+        "MOD_ROCKET": 3,
+        "MOD_RAILGUN": 2,
+        "MOD_SHOTGUN": 3,
+        "MOD_ROCKET_SPLASH": 1,
+      }
+    }
 ```
 
 ## Screen Output
@@ -100,7 +115,3 @@ Contributions are welcome. If you have ideas for new features or improvements, p
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to replace placeholders like `yourusername` with your actual GitHub username and customize the content according to your project's details. Let me know if you need any further adjustments!

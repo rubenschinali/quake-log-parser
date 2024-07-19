@@ -1,0 +1,463 @@
+[
+  {
+    "GameID": "game_01",
+    "GameDetails": {
+      "TotalKills": 11,
+      "Players": [
+        "Isgalamido",
+        "Mocinha"
+      ],
+      "Kills": {
+        "Isgalamido": -5
+      },
+      "KillMethods": {
+        "MOD_FALLING": 1,
+        "MOD_ROCKET_SPLASH": 3,
+        "MOD_TRIGGER_HURT": 7
+      }
+    }
+  },
+  {
+    "GameID": "game_02",
+    "GameDetails": {
+      "TotalKills": 3,
+      "Players": [
+        "Zeh"
+      ],
+      "Kills": {
+        "Zeh": -3
+      },
+      "KillMethods": {
+        "MOD_TRIGGER_HURT": 3
+      }
+    }
+  },
+  {
+    "GameID": "game_03",
+    "GameDetails": {
+      "TotalKills": 44,
+      "Players": [
+        "Oootsimo",
+        "Isgalamido",
+        "Zeh",
+        "Mal"
+      ],
+      "Kills": {
+        "Isgalamido": 11,
+        "Mal": -2,
+        "Oootsimo": 8,
+        "Zeh": 5
+      },
+      "KillMethods": {
+        "MOD_FALLING": 5,
+        "MOD_MACHINEGUN": 2,
+        "MOD_RAILGUN": 8,
+        "MOD_ROCKET": 5,
+        "MOD_ROCKET_SPLASH": 18,
+        "MOD_TRIGGER_HURT": 6
+      }
+    }
+  },
+  {
+    "GameID": "game_04",
+    "GameDetails": {
+      "TotalKills": 0,
+      "Players": [],
+      "Kills": {},
+      "KillMethods": {}
+    }
+  },
+  {
+    "GameID": "game_05",
+    "GameDetails": {
+      "TotalKills": 19,
+      "Players": [
+        "Zeh",
+        "Isgalamido",
+        "UnnamedPlayer",
+        "Maluquinho",
+        "Mal",
+        "Oootsimo"
+      ],
+      "Kills": {
+        "Isgalamido": 2,
+        "Maluquinho": 0,
+        "Oootsimo": 4,
+        "Zeh": 5
+      },
+      "KillMethods": {
+        "MOD_FALLING": 1,
+        "MOD_MACHINEGUN": 1,
+        "MOD_RAILGUN": 2,
+        "MOD_ROCKET": 3,
+        "MOD_ROCKET_SPLASH": 6,
+        "MOD_SHOTGUN": 3,
+        "MOD_TRIGGER_HURT": 3
+      }
+    }
+  },
+  {
+    "GameID": "game_06",
+    "GameDetails": {
+      "TotalKills": 78,
+      "Players": [
+        "Zeh",
+        "Mal",
+        "Chessus",
+        "Isgalamido",
+        "Oootsimo"
+      ],
+      "Kills": {
+        "Chessus": 4,
+        "Isgalamido": 26,
+        "Mal": -11,
+        "Oootsimo": 1,
+        "Zeh": 2
+      },
+      "KillMethods": {
+        "MOD_BFG": 7,
+        "MOD_BFG_SPLASH": 6,
+        "MOD_FALLING": 1,
+        "MOD_MACHINEGUN": 4,
+        "MOD_RAILGUN": 12,
+        "MOD_ROCKET": 10,
+        "MOD_ROCKET_SPLASH": 11,
+        "MOD_TRIGGER_HURT": 27
+      }
+    }
+  },
+  {
+    "GameID": "game_07",
+    "GameDetails": {
+      "TotalKills": 0,
+      "Players": [],
+      "Kills": {},
+      "KillMethods": {}
+    }
+  },
+  {
+    "GameID": "game_08",
+    "GameDetails": {
+      "TotalKills": 39,
+      "Players": [
+        "Oootsimo",
+        "Zeh",
+        "Mal",
+        "Isgalamido",
+        "Chessus"
+      ],
+      "Kills": {
+        "Chessus": 5,
+        "Isgalamido": -1,
+        "Mal": 1,
+        "Oootsimo": 8,
+        "Zeh": 8
+      },
+      "KillMethods": {
+        "MOD_FALLING": 2,
+        "MOD_MACHINEGUN": 3,
+        "MOD_RAILGUN": 7,
+        "MOD_ROCKET": 7,
+        "MOD_ROCKET_SPLASH": 13,
+        "MOD_TRIGGER_HURT": 7
+      }
+    }
+  },
+  {
+    "GameID": "game_09",
+    "GameDetails": {
+      "TotalKills": 10,
+      "Players": [
+        "Isgalamido",
+        "Chessus",
+        "Zeh",
+        "Mal",
+        "Oootsimo"
+      ],
+      "Kills": {
+        "Isgalamido": 5,
+        "Oootsimo": 1
+      },
+      "KillMethods": {
+        "MOD_BFG_SPLASH": 3,
+        "MOD_MACHINEGUN": 1,
+        "MOD_RAILGUN": 3,
+        "MOD_ROCKET_SPLASH": 1,
+        "MOD_TRIGGER_HURT": 2
+      }
+    }
+  },
+  {
+    "GameID": "game_10",
+    "GameDetails": {
+      "TotalKills": 0,
+      "Players": [],
+      "Kills": {},
+      "KillMethods": {}
+    }
+  },
+  {
+    "GameID": "game_11",
+    "GameDetails": {
+      "TotalKills": 2,
+      "Players": [
+        "Oootsimo",
+        "Isgalamido"
+      ],
+      "Kills": {
+        "Isgalamido": -1,
+        "Oootsimo": 1
+      },
+      "KillMethods": {
+        "MOD_ROCKET_SPLASH": 1,
+        "MOD_TRIGGER_HURT": 1
+      }
+    }
+  },
+  {
+    "GameID": "game_12",
+    "GameDetails": {
+      "TotalKills": 44,
+      "Players": [
+        "Oootsimo",
+        "Zeh",
+        "Isgalamido",
+        "Mal"
+      ],
+      "Kills": {
+        "Isgalamido": 12,
+        "Mal": -4,
+        "Oootsimo": 8,
+        "Zeh": 10
+      },
+      "KillMethods": {
+        "MOD_MACHINEGUN": 3,
+        "MOD_RAILGUN": 7,
+        "MOD_ROCKET": 10,
+        "MOD_ROCKET_SPLASH": 12,
+        "MOD_SHOTGUN": 3,
+        "MOD_TRIGGER_HURT": 9
+      }
+    }
+  },
+  {
+    "GameID": "game_13",
+    "GameDetails": {
+      "TotalKills": 29,
+      "Players": [
+        "Isgalamido",
+        "Zeh"
+      ],
+      "Kills": {
+        "Isgalamido": 4,
+        "Zeh": 5
+      },
+      "KillMethods": {
+        "MOD_FALLING": 5,
+        "MOD_MACHINEGUN": 2,
+        "MOD_RAILGUN": 4,
+        "MOD_ROCKET": 1,
+        "MOD_ROCKET_SPLASH": 11,
+        "MOD_SHOTGUN": 1,
+        "MOD_TRIGGER_HURT": 5
+      }
+    }
+  },
+  {
+    "GameID": "game_14",
+    "GameDetails": {
+      "TotalKills": 54,
+      "Players": [
+        "Zeh",
+        "Oootsimo",
+        "Mal",
+        "Isgalamido"
+      ],
+      "Kills": {
+        "Isgalamido": 8,
+        "Mal": 1,
+        "Oootsimo": 9,
+        "Zeh": 12
+      },
+      "KillMethods": {
+        "MOD_FALLING": 2,
+        "MOD_MACHINEGUN": 2,
+        "MOD_RAILGUN": 4,
+        "MOD_ROCKET": 11,
+        "MOD_ROCKET_SPLASH": 22,
+        "MOD_SHOTGUN": 3,
+        "MOD_TRIGGER_HURT": 10
+      }
+    }
+  },
+  {
+    "GameID": "game_15",
+    "GameDetails": {
+      "TotalKills": 2,
+      "Players": [
+        "Isgalamido",
+        "Zeh"
+      ],
+      "Kills": {
+        "Isgalamido": 1,
+        "Zeh": -1
+      },
+      "KillMethods": {
+        "MOD_ROCKET": 1,
+        "MOD_TRIGGER_HURT": 1
+      }
+    }
+  },
+  {
+    "GameID": "game_16",
+    "GameDetails": {
+      "TotalKills": 7,
+      "Players": [
+        "Zeh",
+        "Oootsimo",
+        "Isgalamido",
+        "Mal"
+      ],
+      "Kills": {
+        "Isgalamido": -1,
+        "Mal": -1,
+        "Oootsimo": 1,
+        "Zeh": 0
+      },
+      "KillMethods": {
+        "MOD_FALLING": 1,
+        "MOD_RAILGUN": 1,
+        "MOD_ROCKET_SPLASH": 2,
+        "MOD_TRIGGER_HURT": 3
+      }
+    }
+  },
+  {
+    "GameID": "game_17",
+    "GameDetails": {
+      "TotalKills": 60,
+      "Players": [
+        "Zeh",
+        "Oootsimo",
+        "Mal",
+        "Isgalamido",
+        "Chessus"
+      ],
+      "Kills": {
+        "Isgalamido": 8,
+        "Mal": -8,
+        "Oootsimo": 10,
+        "Zeh": 0
+      },
+      "KillMethods": {
+        "MOD_FALLING": 7,
+        "MOD_MACHINEGUN": 6,
+        "MOD_RAILGUN": 5,
+        "MOD_ROCKET": 6,
+        "MOD_ROCKET_SPLASH": 14,
+        "MOD_SHOTGUN": 4,
+        "MOD_TRIGGER_HURT": 18
+      }
+    }
+  },
+  {
+    "GameID": "game_18",
+    "GameDetails": {
+      "TotalKills": 62,
+      "Players": [
+        "Mal",
+        "Oootsimo",
+        "Chessus",
+        "Isgalamido",
+        "Zeh"
+      ],
+      "Kills": {
+        "Chessus": 0,
+        "Isgalamido": 22,
+        "Mal": -4,
+        "Oootsimo": -2,
+        "Zeh": -2
+      },
+      "KillMethods": {
+        "MOD_BFG": 4,
+        "MOD_BFG_SPLASH": 10,
+        "MOD_FALLING": 3,
+        "MOD_MACHINEGUN": 2,
+        "MOD_RAILGUN": 7,
+        "MOD_ROCKET": 8,
+        "MOD_ROCKET_SPLASH": 7,
+        "MOD_TRIGGER_HURT": 21
+      }
+    }
+  },
+  {
+    "GameID": "game_19",
+    "GameDetails": {
+      "TotalKills": 3,
+      "Players": [
+        "Zeh",
+        "Isgalamido",
+        "Mal"
+      ],
+      "Kills": {
+        "Isgalamido": 1,
+        "Mal": -1,
+        "Zeh": 1
+      },
+      "KillMethods": {
+        "MOD_ROCKET": 1,
+        "MOD_ROCKET_SPLASH": 1,
+        "MOD_TRIGGER_HURT": 1
+      }
+    }
+  },
+  {
+    "GameID": "game_20",
+    "GameDetails": {
+      "TotalKills": 3,
+      "Players": [
+        "Zeh",
+        "Isgalamido",
+        "Mocinha"
+      ],
+      "Kills": {
+        "Isgalamido": 1,
+        "Zeh": -2
+      },
+      "KillMethods": {
+        "MOD_ROCKET": 1,
+        "MOD_TRIGGER_HURT": 2
+      }
+    }
+  },
+  {
+    "GameID": "game_21",
+    "GameDetails": {
+      "TotalKills": 40,
+      "Players": [
+        "Chessus",
+        "Isgalamido",
+        "Mal",
+        "Oootsimo",
+        "Zeh"
+      ],
+      "Kills": {
+        "Chessus": 4,
+        "Isgalamido": 3,
+        "Mal": 1,
+        "Oootsimo": -1,
+        "Zeh": 5
+      },
+      "KillMethods": {
+        "MOD_BFG": 1,
+        "MOD_BFG_SPLASH": 2,
+        "MOD_CRUSH": 1,
+        "MOD_MACHINEGUN": 1,
+        "MOD_RAILGUN": 3,
+        "MOD_ROCKET": 2,
+        "MOD_TELEFRAG": 17,
+        "MOD_TRIGGER_HURT": 13
+      }
+    }
+  }
+]

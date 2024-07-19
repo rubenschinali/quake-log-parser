@@ -1,0 +1,430 @@
+[
+  {
+    "GameID": "game_01",
+    "GameDetails": {
+      "TotalKills": 39,
+      "Players": [
+        "Oootsimo",
+        "Zeh",
+        "Mal",
+        "Isgalamido",
+        "Chessus"
+      ],
+      "Kills": {
+        "Chessus": 5,
+        "Isgalamido": -1,
+        "Mal": 1,
+        "Oootsimo": 8,
+        "Zeh": 8
+      },
+      "KillMethods": {
+        "Chessus": 5,
+        "Isgalamido": -1,
+        "Mal": 1,
+        "Oootsimo": 8,
+        "Zeh": 8
+      }
+    }
+  },
+  {
+    "GameID": "game_02",
+    "GameDetails": {
+      "TotalKills": 40,
+      "Players": [
+        "Mal",
+        "Oootsimo",
+        "Zeh",
+        "Chessus",
+        "Isgalamido"
+      ],
+      "Kills": {
+        "Chessus": 4,
+        "Isgalamido": 3,
+        "Mal": 1,
+        "Oootsimo": -1,
+        "Zeh": 5
+      },
+      "KillMethods": {
+        "Chessus": 4,
+        "Isgalamido": 3,
+        "Mal": 1,
+        "Oootsimo": -1,
+        "Zeh": 5
+      }
+    }
+  },
+  {
+    "GameID": "game_03",
+    "GameDetails": {
+      "TotalKills": 2,
+      "Players": [
+        "Isgalamido",
+        "Oootsimo"
+      ],
+      "Kills": {
+        "Isgalamido": -1,
+        "Oootsimo": 1
+      },
+      "KillMethods": {
+        "Isgalamido": -1,
+        "Oootsimo": 1
+      }
+    }
+  },
+  {
+    "GameID": "game_04",
+    "GameDetails": {
+      "TotalKills": 2,
+      "Players": [
+        "Isgalamido",
+        "Zeh"
+      ],
+      "Kills": {
+        "Isgalamido": 1,
+        "Zeh": -1
+      },
+      "KillMethods": {
+        "Isgalamido": 1,
+        "Zeh": -1
+      }
+    }
+  },
+  {
+    "GameID": "game_05",
+    "GameDetails": {
+      "TotalKills": 0,
+      "Players": [],
+      "Kills": {},
+      "KillMethods": {}
+    }
+  },
+  {
+    "GameID": "game_06",
+    "GameDetails": {
+      "TotalKills": 11,
+      "Players": [
+        "Isgalamido",
+        "Mocinha"
+      ],
+      "Kills": {
+        "Isgalamido": -5
+      },
+      "KillMethods": {
+        "Isgalamido": -5
+      }
+    }
+  },
+  {
+    "GameID": "game_07",
+    "GameDetails": {
+      "TotalKills": 44,
+      "Players": [
+        "Oootsimo",
+        "Isgalamido",
+        "Zeh",
+        "Mal"
+      ],
+      "Kills": {
+        "Isgalamido": 11,
+        "Mal": -2,
+        "Oootsimo": 8,
+        "Zeh": 5
+      },
+      "KillMethods": {
+        "Isgalamido": 11,
+        "Mal": -2,
+        "Oootsimo": 8,
+        "Zeh": 5
+      }
+    }
+  },
+  {
+    "GameID": "game_08",
+    "GameDetails": {
+      "TotalKills": 44,
+      "Players": [
+        "Mal",
+        "Oootsimo",
+        "Zeh",
+        "Isgalamido"
+      ],
+      "Kills": {
+        "Isgalamido": 12,
+        "Mal": -4,
+        "Oootsimo": 8,
+        "Zeh": 10
+      },
+      "KillMethods": {
+        "Isgalamido": 12,
+        "Mal": -4,
+        "Oootsimo": 8,
+        "Zeh": 10
+      }
+    }
+  },
+  {
+    "GameID": "game_09",
+    "GameDetails": {
+      "TotalKills": 78,
+      "Players": [
+        "Oootsimo",
+        "Zeh",
+        "Mal",
+        "Chessus",
+        "Isgalamido"
+      ],
+      "Kills": {
+        "Chessus": 4,
+        "Isgalamido": 26,
+        "Mal": -11,
+        "Oootsimo": 1,
+        "Zeh": 2
+      },
+      "KillMethods": {
+        "Chessus": 4,
+        "Isgalamido": 26,
+        "Mal": -11,
+        "Oootsimo": 1,
+        "Zeh": 2
+      }
+    }
+  },
+  {
+    "GameID": "game_10",
+    "GameDetails": {
+      "TotalKills": 0,
+      "Players": [],
+      "Kills": {},
+      "KillMethods": {}
+    }
+  },
+  {
+    "GameID": "game_11",
+    "GameDetails": {
+      "TotalKills": 3,
+      "Players": [
+        "Isgalamido",
+        "Mocinha",
+        "Zeh"
+      ],
+      "Kills": {
+        "Isgalamido": 1,
+        "Zeh": -2
+      },
+      "KillMethods": {
+        "Isgalamido": 1,
+        "Zeh": -2
+      }
+    }
+  },
+  {
+    "GameID": "game_12",
+    "GameDetails": {
+      "TotalKills": 0,
+      "Players": [],
+      "Kills": {},
+      "KillMethods": {}
+    }
+  },
+  {
+    "GameID": "game_13",
+    "GameDetails": {
+      "TotalKills": 19,
+      "Players": [
+        "Mal",
+        "Oootsimo",
+        "Zeh",
+        "Isgalamido",
+        "UnnamedPlayer",
+        "Maluquinho"
+      ],
+      "Kills": {
+        "Isgalamido": 2,
+        "Maluquinho": 0,
+        "Oootsimo": 4,
+        "Zeh": 5
+      },
+      "KillMethods": {
+        "Isgalamido": 2,
+        "Maluquinho": 0,
+        "Oootsimo": 4,
+        "Zeh": 5
+      }
+    }
+  },
+  {
+    "GameID": "game_14",
+    "GameDetails": {
+      "TotalKills": 10,
+      "Players": [
+        "Isgalamido",
+        "Chessus",
+        "Zeh",
+        "Mal",
+        "Oootsimo"
+      ],
+      "Kills": {
+        "Isgalamido": 5,
+        "Oootsimo": 1
+      },
+      "KillMethods": {
+        "Isgalamido": 5,
+        "Oootsimo": 1
+      }
+    }
+  },
+  {
+    "GameID": "game_15",
+    "GameDetails": {
+      "TotalKills": 54,
+      "Players": [
+        "Mal",
+        "Isgalamido",
+        "Zeh",
+        "Oootsimo"
+      ],
+      "Kills": {
+        "Isgalamido": 8,
+        "Mal": 1,
+        "Oootsimo": 9,
+        "Zeh": 12
+      },
+      "KillMethods": {
+        "Isgalamido": 8,
+        "Mal": 1,
+        "Oootsimo": 9,
+        "Zeh": 12
+      }
+    }
+  },
+  {
+    "GameID": "game_16",
+    "GameDetails": {
+      "TotalKills": 29,
+      "Players": [
+        "Isgalamido",
+        "Zeh"
+      ],
+      "Kills": {
+        "Isgalamido": 4,
+        "Zeh": 5
+      },
+      "KillMethods": {
+        "Isgalamido": 4,
+        "Zeh": 5
+      }
+    }
+  },
+  {
+    "GameID": "game_17",
+    "GameDetails": {
+      "TotalKills": 62,
+      "Players": [
+        "Isgalamido",
+        "Zeh",
+        "Mal",
+        "Oootsimo",
+        "Chessus"
+      ],
+      "Kills": {
+        "Chessus": 0,
+        "Isgalamido": 22,
+        "Mal": -4,
+        "Oootsimo": -2,
+        "Zeh": -2
+      },
+      "KillMethods": {
+        "Chessus": 0,
+        "Isgalamido": 22,
+        "Mal": -4,
+        "Oootsimo": -2,
+        "Zeh": -2
+      }
+    }
+  },
+  {
+    "GameID": "game_18",
+    "GameDetails": {
+      "TotalKills": 3,
+      "Players": [
+        "Zeh"
+      ],
+      "Kills": {
+        "Zeh": -3
+      },
+      "KillMethods": {
+        "Zeh": -3
+      }
+    }
+  },
+  {
+    "GameID": "game_19",
+    "GameDetails": {
+      "TotalKills": 7,
+      "Players": [
+        "Isgalamido",
+        "Mal",
+        "Zeh",
+        "Oootsimo"
+      ],
+      "Kills": {
+        "Isgalamido": -1,
+        "Mal": -1,
+        "Oootsimo": 1,
+        "Zeh": 0
+      },
+      "KillMethods": {
+        "Isgalamido": -1,
+        "Mal": -1,
+        "Oootsimo": 1,
+        "Zeh": 0
+      }
+    }
+  },
+  {
+    "GameID": "game_20",
+    "GameDetails": {
+      "TotalKills": 3,
+      "Players": [
+        "Zeh",
+        "Isgalamido",
+        "Mal"
+      ],
+      "Kills": {
+        "Isgalamido": 1,
+        "Mal": -1,
+        "Zeh": 1
+      },
+      "KillMethods": {
+        "Isgalamido": 1,
+        "Mal": -1,
+        "Zeh": 1
+      }
+    }
+  },
+  {
+    "GameID": "game_21",
+    "GameDetails": {
+      "TotalKills": 60,
+      "Players": [
+        "Oootsimo",
+        "Mal",
+        "Isgalamido",
+        "Chessus",
+        "Zeh"
+      ],
+      "Kills": {
+        "Isgalamido": 8,
+        "Mal": -8,
+        "Oootsimo": 10,
+        "Zeh": 0
+      },
+      "KillMethods": {
+        "Isgalamido": 8,
+        "Mal": -8,
+        "Oootsimo": 10,
+        "Zeh": 0
+      }
+    }
+  }
+]
