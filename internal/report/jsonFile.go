@@ -7,10 +7,10 @@ import (
 	"quake-log-parser/internal/parser"
 )
 
-// WriteGameReportJSON saves the parsed data as a JSON file with two-digit game IDs.
+// WriteGameReportJSON saves the parsed data as a JSON file with the specified structure.
 func WriteGameReportJSON(filename string, allGames map[int]*parser.Game) error {
-	// Prepare the data for JSON encoding
-	formattedReport := make(map[string]parser.GameReport)
+
+	var formattedReport []parser.GameReport
 
 	// Use an incremental counter for sequential IDs
 	counter := 1
@@ -22,12 +22,25 @@ func WriteGameReportJSON(filename string, allGames map[int]*parser.Game) error {
 			players = append(players, player)
 		}
 
-		// Create the GameReport entry with two-digit formatted ID
-		formattedReport[fmt.Sprintf("game_%02d", counter)] = parser.GameReport{
-			TotalKills: game.TotalKills,
-			Players:    players,
-			Kills:      game.Kills,
+		// Placeholder logic to populate kill methods; replace with actual logic
+		killMethods := make(map[string]int)
+		for method, count := range game.Kills {
+			// This is a placeholder for kill methods counting logic
+			killMethods[method] = count
 		}
+
+		// Create the GameReport entry with formatted ID
+		gameReport := parser.GameReport{
+			GameID: fmt.Sprintf("game_%02d", counter),
+			GameDetails: parser.GameDetails{
+				TotalKills:  game.TotalKills,
+				Players:     players,
+				Kills:       game.Kills,
+				KillMethods: killMethods, // Replace with actual logic to fill kill methods
+			},
+		}
+
+		formattedReport = append(formattedReport, gameReport)
 		counter++ // Increment the counter for the next game
 	}
 

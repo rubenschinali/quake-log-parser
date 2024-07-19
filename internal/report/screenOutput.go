@@ -7,9 +7,9 @@ import (
 )
 
 // PrintPretty prints the parsed data in a user-friendly format.
-func ScreenOutput(allGames map[int]*parser.Game) {
+func ReportScreenOutput(allGames map[int]*parser.Game) {
 	for id, game := range allGames {
-		fmt.Printf("Game ID: %d\n", id)
+		fmt.Printf("Game ID: %d\n", id+1)
 		fmt.Println("Game Details:")
 		fmt.Printf("  Total Kills: %d\n", game.TotalKills)
 

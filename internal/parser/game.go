@@ -17,9 +17,22 @@ func NewGame() *Game {
 	}
 }
 
-// GameReport represents the structure of a game report in JSON format.
+// // GameReport represents the structure of a game report in JSON format.
+// type GameReport struct {
+// 	TotalKills int            `json:"total_kills"`
+// 	Players    []string       `json:"players"`
+// 	Kills      map[string]int `json:"kills"`
+// }
+
+// Prepare the data for JSON encoding
+type GameDetails struct {
+	TotalKills  int            `json:"TotalKills"`
+	Players     []string       `json:"Players"`
+	Kills       map[string]int `json:"Kills"`
+	KillMethods map[string]int `json:"KillMethods"`
+}
+
 type GameReport struct {
-	TotalKills int            `json:"total_kills"`
-	Players    []string       `json:"players"`
-	Kills      map[string]int `json:"kills"`
+	GameID      string      `json:"GameID"`
+	GameDetails GameDetails `json:"GameDetails"`
 }

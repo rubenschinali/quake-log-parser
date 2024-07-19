@@ -103,5 +103,5 @@ func outputJson(allGames map[int]*parser.Game) {
 }
 
 func outputScreen(allGames map[int]*parser.Game) {
-	report.ScreenOutput(allGames)
+	report.ReportScreenOutput(allGames)
 }
